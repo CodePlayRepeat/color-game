@@ -1,0 +1,41 @@
+.help {
+    margin-left: 12in;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+.help .txt{
+    visibility: hidden;
+    width: 2in;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.1in;
+    padding: 0.1cm 0.1cm 0.1cm 0.1cm;
+    position: absolute;
+    z-index: 1;
+}
+.help:hover .txt{
+    visibility: visible;
+    box-shadow: 0 0 8px black;
+}
+footer{
+    background-color: black;
+    padding: 0.1in 0 0 0;
+    color: white;
+    height: 1in;
+    width: 15.82in;
+}
+footer img {
+    width: 0.3in;
+    height: 0.3in;
+    cursor: pointer;
+}
+.th{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    padding: 0.2in 1.4in 0 1.4in;
+}
