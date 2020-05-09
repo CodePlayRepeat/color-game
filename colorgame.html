@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" type="text/css" href="colorgame.css">
+       <script type="text/javascript" src="colorgame.js"></script>
+       <link rel="stylesheet" type="text/css" href="mics.css">
+    </head>
+    <body>
+     <div class="mains">
+       <div class="main"> <!--main body-->
+        <button class="help">
+            <span style="font-weight: bolder;">?</span>
+            <span class="txt">
+                The correct answer will be the color of the given word/text, not the name.
+            </span></button> <!--inside, mics.css-->
+         <div class="sub">
+          <div id="name">
+            <!--Color name (colored)-->
+          </div>
+         <div id="color">
+            <!--answer-->
+            <span><input onfocus="this.value=''" type="text" class="ans" placeholder="Color name"/></span>
+            <button class="btn" onclick="chk()">Answer</button>
+         </div>
+        </div>
+        </div>
+       </div>
+    </body>
+    <footer>
+        &copy; Copyright 2020, @CodePlayRepeat | Further updates are coming soon | Follow me if you like this,<br>
+        <div class="th">
+            <img src="icons/tw.png" alt="twitter" onclick="location.href='https://twitter.com/CodePlayRepeat'"/>
+        </div>
+        <div class="th">
+            <img src="icons/git.png" alt="GitHub" onclick="location.href='https://github.com/CodePlayRepeat'"/>
+        </div>
+        <div class="th">
+            <img src="icons/lkn.png" alt="Linkedin" onclick="location.href='https://www.linkedin.com/in/codeplayrepeat/'"/>
+        </div>
+        <div class="th">
+            <img src="icons/gd.png" alt="Goodwall" onclick="location.href='https://www.goodwall.io/sayoni-roy-a6b1'"/>
+        </div>
+        <div class="th">
+            <img src="icons/ins.png" alt="Instagram" onclick="location.href='https://www.instagram.com/codeplayrepeat/'"/>
+        </div>
+    </footer>
+</html>
