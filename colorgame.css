@@ -1,24 +1,23 @@
 body{
     margin: 0;
     background: url("backgrounds/colors.jpg");
-
 }
 .mains{
-    padding: 0.8in 1in 0.8in 1in;
+    padding: 3em 0 3em 6.5em;
     margin: 0;
 }
 .main{
-    padding: 0.5in 0.5in 0.5in 0.5in;
-    height: 5in;
-    width: 12.5in;
-    border-radius: 0.2in;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    height: 30em;
+    width: 80.8em;
+    border-radius: 2em;
     background-color: rgba(255, 255, 255, 0.521);
 }
 .sub{
     text-align: center;
 }
 #color{
-    padding: 0.5in 0 0 0;
+    padding: 2.5em 0 0 0;
 }
 ::placeholder{
     color: black;
@@ -36,8 +35,8 @@ body{
     border-right-style: hidden;
     font-family: cursive;
     border-left-style: hidden;
-    padding: 0.1in 0.1in 0.1in 0.1in;
-    font-size: 0.15in;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    font-size: 0.89em;
 }
 .ans:focus{
     background-color: rgb(211, 211, 211);
@@ -45,19 +44,19 @@ body{
 #name{
     -webkit-text-stroke-color:black;
     font-style: italic;
-    -webkit-text-stroke-width: 0.5mm;
+    -webkit-text-stroke-width: 1mm;
     font-family: 'Times New Roman';
-    font-size: 2in;
+    font-size: 14em;
     text-shadow: 0 0 8px black;
 }
 .btn{
     border-style: hidden;
-    font-size: 0.15in;
+    font-size: 1em;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(27, 95, 185);
     text-align: center;
-    border-radius: 0.1in;
-    padding: 0.1in 0.1in 0.1in 0.1in;
+    border-radius: 0.7em;
+    padding: 0.7em 0.7em 0.7em 0.7em;
     cursor: pointer;
     color:white;
 }
@@ -65,5 +64,5 @@ body{
    background-color: rgb(19, 77, 153);
 }
 .btn:active{
-    box-shadow: 0 0 8px black;
+    box-shadow: 0 0 8px rgb(25, 47, 80);
  }
