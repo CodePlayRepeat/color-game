@@ -25,7 +25,8 @@ function chk() {
             clrname = clsname[Math.floor(Math.random()*(clsname.length))];
             anss = cls[Math.floor(Math.random()*(cls.length))];
             cnm.innerHTML = clrname;
-            cnm.style.fontFamily="none";
+            cnm.style.fontFamily="Times New Roman";
+            cnm.style.fontStyle = "italic";
             cnm.style.color = anss;
             //console.log('changed'+'\nclrname = '+(clrname)+'\nanss = '+(anss));
           },2000);
@@ -39,6 +40,8 @@ function chk() {
           setTimeout(() => {
             clrname = clrname;
             anss = anss;
+            cnm.style.fontFamily="Times New Roman";
+            cnm.style.fontStyle = "italic";
             cnm.innerHTML = clrname;
             cnm.style.color = anss;
             //console.log('changed'+'\nclrname = '+(clrname)+'\nanss = '+(anss));
