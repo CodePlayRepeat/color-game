@@ -1,5 +1,5 @@
 .help {
-    margin-left: 12in;
+    margin: 2em 0 0 90em;
     border-style: solid;
     border-color: black;
     border-radius: 100%;
@@ -12,7 +12,7 @@
     background-color: black;
     color: #fff;
     text-align: center;
-    border-radius: 0.1in;
+    border-radius: 1em;
     padding: 0.1cm 0.1cm 0.1cm 0.1cm;
     position: absolute;
     z-index: 1;
@@ -23,19 +23,19 @@
 }
 footer{
     background-color: black;
-    padding: 0.1in 0 0 0;
+    padding: 0.6em 0 0 0;
     color: white;
-    height: 1in;
-    width: 15.82in;
+    height: 7.5em;
+    width: 96em;
 }
 footer img {
-    width: 0.3in;
-    height: 0.3in;
+    width: 2em;
+    height: 2em;
     cursor: pointer;
 }
 .th{
     text-align: center;
     margin: auto;
     display: inline-block;
-    padding: 0.2in 1.4in 0 1.4in;
+    padding: 2em 8.5em 0 8.5em ;
 }
